@@ -1,0 +1,44 @@
+#contact {
+  text-align: center;
+  font-size: 4em;
+  background-color: #000033;
+  border: 10px solid;
+}
+.container-contact {
+  background-image: url("../image/1.jpg");
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  color: #66b3ff;
+}
+h1 {
+  font-size: 45px;
+}
+p {
+  font-size: 30px;
+}
+.container-me {
+  border: 10px solid;
+  border-color: #b3ffe6;
+}
+.container-order {
+  padding: 16px;
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  border: 25px solid #3385ff;
+  text-align: right;
+  background-color: #ff66cc;
+  font-size: 20px;
+}
+input[type=text],
+input[type=password] {
+  width: 50%;
+}
+#order {
+  padding-right: 80%;
+  background-color: #d9d9d9;
+  font-size: 2em;
+}
