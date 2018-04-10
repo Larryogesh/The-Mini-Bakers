@@ -1,0 +1,58 @@
+body {
+  background-image: url(../image/cherrycupcakes.jpg);
+}
+
+.size {
+  width: 300px;
+  height: 300px;
+}
+
+.size2 {
+  width: 300px;
+  height: 300px;
+}
+
+#col {
+  background-image: url("../image/whitecake.jpg");
+}
+
+#topic {
+  text-align: center;
+  padding-left: 5%;
+  color: Gold;
+  font-style: italic;
+}
+
+.size3 {
+  width: 300px;
+  height: 300px;
+}
+
+.size4 {
+  width: 300px;
+  height: 300px;
+}
+
+.size5 {
+  width: 300px;
+  height: 300px;
+}
+
+.size6 {
+  width: 300px;
+  height: 300px;
+}
+
+#head {
+  color: Gold;
+  font-style: italic;
+}
+
+#word {
+  color: Blue;
+  font-style: normal;
+}
+
+.jumbotron {
+  opacity: 0.5;
+}
