@@ -11,3 +11,6 @@ body {
    border: 5px solid gray;
   background-image: url("../img/rm.jpg")
 }
+p.thick {
+    font-weight: bold;
+}
