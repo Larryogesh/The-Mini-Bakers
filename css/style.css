@@ -1,14 +1,77 @@
-.topnav{
-  overflow: hidden;
-  background-color: purple;
+body{
+  background-color: black;
 }
-.topnav a{
-  float: left;
-  display: block;
+.btn{
+  background-color: purple;
+  color: #ff66cc;
+  padding:  16px;
+  font-size: 16px;
+  border: none;
+}
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
+.dropdown-cont{
+  display: none;
+  position: fixed;
+  background-color: #ff66cc;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-cont a{
   color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-cont a:hover {
+  background-color: grey;
+}
+.dropdown:hover .dropdown-cont{
+  display: block;
+}
+.dropdown:hover .btn{
+  background-color: Skyblue;
+}
+#col{
   text-align: center;
-  padding: 5px 94px;
-  font-size: 17px;
-  margin: 32px;
-
+  color:  black;
+  background-image: url("../images/kk.jpg");
+  height: 100%;
+  font-size: 24px;
+}
+.container{
+  text-align: center;
+  color: #ff66cc;
+}
+.container1{
+  text-align: center;
+  color: #ff66cc;
+}
+.container2{
+  text-align: center;
+  color: #ff66cc;
+}
+.column{
+  width: 40%;
+  height: 40%;
+}
+.container3{
+  width: 90%;
+}
+.container4{
+  color: #ff66cc;
+  background-color: ;
+}
+.container5{
+  text-align: center;
+  background-color: white;
+  height: 28px;
+}
+.container5 p{
+  color: black;
+  font-size: 12px;
+  font-weight: bold;
 }
