@@ -1,15 +1,14 @@
 #contact {
   text-align: center;
   font-size: 4em;
-  background-color: #000033;
-  border: 10px solid;
+  background-color: #ffffff;
+  border: 5px solid black;
 }
 .container-contact {
-  background-image: url("../image/1.jpg");
   text-align: center;
   padding-top: 5%;
   padding-bottom: 5%;
-  color: #66b3ff;
+  color: black;
 }
 h1 {
   font-size: 45px;
@@ -18,27 +17,45 @@ p {
   font-size: 30px;
 }
 .container-me {
-  border: 10px solid;
-  border-color: #b3ffe6;
+  border: 2px solid;
+  border-color: black;
 }
 .container-order {
   padding: 16px;
   width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
+  margin: 0px;
   display: inline-block;
   border: none;
-  border: 25px solid #3385ff;
-  text-align: right;
-  background-color: #ff66cc;
+  border: 15px solid #black;
+  background-color: #ffffff;
   font-size: 20px;
+  text-transform: center;
 }
 input[type=text],
 input[type=password] {
   width: 50%;
 }
 #order {
-  padding-right: 80%;
   background-color: #d9d9d9;
   font-size: 2em;
+  text-align: center;
+  font-style: italic;
 }
+form {
+  width: 80%;
+  margin: auto;
+}
+label,
+input {
+  display: inline-block;
+  text-align: center;
+}
+label {
+  width: 30%;
+  text-align: center;
+}
+label+input {
+  width: 30%;
+  margin: 0 30% 0 4%;
+}
+​
