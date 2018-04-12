@@ -14,18 +14,31 @@
   <body>
     <div class="container-order">
       <form action="/action_page.php">
-        <fieldset>
-          <legend id="order">Order Form:</legend><br><br> Name *
-          <input type="text" name="firstname" value="first"><br>
-          <input type="text" name="lastname" value="last"><br><br> E-mail *
-          <input type="text" name="e-mail"><br><br> Phone Number *
-          <input type="text" name="number"><br><br> Flavour/Type *
-          <input type="text" name="flavour/type"><br><br> Quantity *
-          <input type="text" name="number"><br><br><br>
+        <!-- <form> -->
+        <div id="HOME">
+          <fieldset>
+            <legend id="new-order">Order Form:</legend><br><br>
+            <span class="btn -primary" id="new-order"></span>
+            <div class="form-group"> <label class="col-md-7" for="new-first-name">First name *</label> <input type="text" class="new-first-name"> </div>
+            <div class="form-group"> <label class="col-md-7" class="col-md-7" for="new-first-name">Last Name *</label> <input type="text" class=" new-last-name"> </div>
+            <div class="form-group"> <label class="col-md-7" for="new-email">E-mail *</label> <input type="text" class=" new-email"> </div>
+            <div class="form-group"> <label class="col-md-7" for="new-phone-number">Phone Number *</label> <input type="text" class=" new-phone-number"> </div>
+            <div class="form-group"> <label class="col-md-7" for="new-type">Type *</label> <input type="text" class=" new-type"> </div>
+            <div class="form-group"> <label class="col-md-7" for="new-flavour">Flavour *</label> <input type="text" class="new-flavour"> </div>
+            <div class="form-group"> <label class="col-md-7" for="new-quantity">Quantity *</label> <input type="text" class=" new-quantity"> </div>
+            <div class="form-group"> <label class="col-md-7" for="new-destination">Destination *</label> <input type="text" class=" new-destination"> </div>
 
-          <input type="submit" value="Submit" color:red;>
-        </fieldset>
+            <input type="submit" value="Submit" ;>
       </form>
+      </div>
+
+      <div id="order">
+
+      </div>
+      <div id="show-contact">
+        </fieldset>
+
+      </div>
     </div>
 
   </body>
